@@ -16,13 +16,33 @@
     flex-wrap: wrap;
     gap: 40px;
 
-   
     justify-content: flex-end;
+    align-items: baseline;
+
+    align-content: space-evenly;
+
 }  
 .caja{
+    background-color: coral;
     border: 1px solid red;
     width: 100px;
-    height: 100px;
-    
-    
+    height: 100px;  
+}
+#caja1{
+    order: 2;
+}
+#caja2 {
+
+    order: 3;
+}
+#Caja3{
+    order: 1;
+}
+#Caja4{
+    order: 2;
+}
+#caja5{
+    order: -1;
+    flex-grow: 10;
+    background-color: red;
 }
