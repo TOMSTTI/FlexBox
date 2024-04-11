@@ -24,18 +24,19 @@
 }  
 .caja{
     background-color: coral;
-    border: 1px solid red;
+    border: 2px solid red;
     width: 100px;
-    height: 100px;  
+    height: 100px;
+    text-align:center  
 }
 #caja1{
     order: 2;
 }
 #caja2 {
-
     order: 3;
 }
 #Caja3{
+    
     order: 1;
 }
 #Caja4{
@@ -44,5 +45,5 @@
 #caja5{
     order: -1;
     flex-grow: 10;
-    background-color: red;
+    background-color:white
 }
